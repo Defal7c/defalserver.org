@@ -5,6 +5,7 @@
         <link rel='stylesheet' type='text/css' href='style.css'>
         <meta charset="utf-8"/>
         <link rel="icon" href="../img/icon.png" type="image/x-icon">
+        <script src="master.js" defer></script>
     </head>
     <body>
         <div>
@@ -40,8 +41,12 @@
         <h2 class="wierd">Servidores</h2>
       </div>
       
-      <h2 id="status" src="https://mcsrvstat.us/server/play.defalserver.org" title="o jogo"></h2>
-
+      <div id="server-status-container">
+        <h2 id="status">
+          Aguardando servidor...
+        </h2>
+        <h3 id="currently-playing"></h3>
+      </div>
       </div>
     </body>
 </html>

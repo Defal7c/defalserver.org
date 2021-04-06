@@ -63,3 +63,22 @@ img{
       padding: 10px;
       text-align: left;
 }
+
+#server-status-container {
+      display: flex;
+      width: 100%;
+      font-family: monospace;
+}
+
+#status {
+      color: #AAAAAA;
+      display: block;
+      letter-spacing: 0.1em;
+      padding: 0.5em;
+      text-align: left
+}
+
+#currently-playing {
+      margin-left: auto;
+      padding-right: 10px;
+}
