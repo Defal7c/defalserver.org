@@ -1,0 +1,65 @@
+.white { background: white; color: black; }
+.dark { background: #111318; color: white; }
+
+@media (prefers-color-scheme: light){
+  body{
+       color: black;
+       background: white;
+  }
+}
+
+body {
+       color: white;
+       background: #111318;
+}
+
+.wholepage{
+      background: #2f3946;
+      max-width: 750px;
+      padding-left:10px;
+      padding-right:10px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.button{
+      position: absolute;
+      right: 0px;
+      padding: 10px;
+}
+
+.links{
+      width: 40%;
+      margin: auto;
+      text-align:center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left:0px;
+}
+
+h1{
+      color: pink;
+}
+
+h1, h2, h3{
+      text-align: center;
+}
+
+a{
+      color: aqua;
+}
+
+nav li{
+      display: inline;
+}
+
+img{
+      float: left;
+      margin: 1rem;
+}
+
+.wierd{
+      padding: 10px;
+      text-align: left;
+}
