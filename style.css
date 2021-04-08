@@ -65,6 +65,7 @@ img{
 }
 
 #server-status-container {
+      background: black;
       display: flex;
       width: 100%;
       font-family: monospace;
