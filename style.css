@@ -45,6 +45,7 @@ body {
 }
 
 ul p{
+      word-warp: break-word;
       color: orange;
       font-size: 12px;
 }
