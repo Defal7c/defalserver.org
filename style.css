@@ -26,8 +26,7 @@ body {
       position: absolute;
       right: 0px;
       padding: 10px;
-}
-
+} 
 .links{
       width: 40%;
       margin: auto;
@@ -40,14 +39,16 @@ body {
 
 .librepay{
       display:grid;
-      grid-gap: 25px;
+      grid-gap: 20px;
       place-items: center;
 }
+ul{
+      list-style-type: none; 
+}
 
-ul p{
-      word-warp: break-word;
+ul ul{
+      word-wrap: break-word;
       color: orange;
-      font-size: 12px;
 }
 
 h1{
@@ -79,6 +80,11 @@ img{
 .wierd{
       padding: 6px;
       text-align: left;
+}
+
+#cargo{
+      color: orange;
+      text-align: center;
 }
 
 #server-status-container {
