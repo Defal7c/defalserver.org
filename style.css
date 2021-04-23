@@ -37,7 +37,7 @@ body {
       padding-left:0px;
 }
 
-#vantagens {
+.vantagens {
       list-style-type: circle;
 }
 
@@ -87,7 +87,7 @@ img{
       text-align: left;
 }
 
-#cargo{
+.cargo{
       color: orange;
       padding-left: 10px;
       text-align: left;
