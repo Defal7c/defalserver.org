@@ -25,6 +25,7 @@ body {
 .button{
       position: absolute;
       right: 0px;
+      display: flex;
       padding: 10px;
 } 
 .links{
@@ -49,6 +50,11 @@ body {
 
 #crypto {
       list-style-type: none; 
+}
+
+p{
+      font-size: 14px;
+      font-family: monospace;
 }
 
 ul ul{
